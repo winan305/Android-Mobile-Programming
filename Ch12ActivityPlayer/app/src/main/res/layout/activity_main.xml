@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout android:orientation="vertical"
+    tools:context="com.example.administrator.ch12activityplayer.MainActivity"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:id="@+id/activity_main"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+<TextView android:layout_height="wrap_content"
+    android:layout_width="wrap_content"
+    android:text="Music Player"/>
+
+<Button
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    android:id="@+id/start"
+    android:text="Start Music"
+    android:onClick="onClickStart"/>
+
+<Button
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    android:id="@+id/pause"
+    android:text="Pause Music"
+    android:onClick="onClickPause"/>
+
+</LinearLayout>
