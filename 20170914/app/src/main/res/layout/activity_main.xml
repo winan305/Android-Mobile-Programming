@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/parent"
+    tools:context="com.example.administrator.a20170914.MainActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="200dp"
+        android:layout_height="300dp"
+        app:srcCompat="@mipmap/ic_launcher" />
+
+    <TextView
+        android:layout_width="392dp"
+        android:layout_height="295dp"
+        android:text="\nDU-YEONG JUN\n\nKoreatech, Computer Science and Engineering\n\n010-8222-2910\n\nwinan305@naver.com\n\n소울관 가206호"
+        android:gravity="center_vertical"
+        app:layout_constraintLeft_toRightOf="@+id/imageView" />
+
+</android.support.constraint.ConstraintLayout>
